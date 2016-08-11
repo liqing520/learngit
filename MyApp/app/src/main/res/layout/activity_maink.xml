@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="qq.app01.com.myapp.Maink">
+    <RelativeLayout
+        android:id="@+id/kkre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lan">
+
+        <ImageButton
+            android:id="@+id/fanhui"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/lan"
+            android:src="@drawable/fanhui" />
+
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/fanhui"
+            android:layout_marginRight="8dp"
+            android:background="@color/lan"
+            android:src="@drawable/xuanxiangka" />
+
+        <ImageView
+            android:id="@+id/kcimg1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/fanhui"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kcimg1"
+            android:padding="10dp"
+            android:text="课程的查询结果"
+            android:textAlignment="center"
+            android:textColor="@color/WRITE"
+            android:textSize="25dp" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/kkte"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/kkre"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:id="@+id/kkte2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/kkte"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>

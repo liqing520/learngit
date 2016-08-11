@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">学生选课</string>
+    <string name="bz">帮助</string>
+    <string name="tcxt">退出系统</string>
+    <string name="cxxsxx">查询学生信息</string>
+    <string name="xxkc">选修课程</string>
+    <string name="kccx">课程查询</string>
+    <string name="kcxxxx">课程详细信息</string>
+    <string name="qxzkc">请选择你选修课程的编号</string>
+</resources>
